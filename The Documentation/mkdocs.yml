@@ -1,0 +1,85 @@
+site_name: NBE ALM Simulation Center
+site_url: https://ahmed01hashem.github.io/nbe-alm-simulation/
+site_description: Technical documentation for the NBE Asset-Liability Management simulation prototype (v2.1)
+copyright: Prototype documentation for the NBE ALM Simulation Center. Not an official National Bank of Egypt application.
+
+theme:
+  name: material
+  logo: assets/nbe_logo_w.png
+  favicon: assets/nbe_icon.png
+  font:
+    text: Inter
+    code: JetBrains Mono
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - toc.follow
+    - content.code.copy
+    - content.tabs.link
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search
+
+extra:
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - Using the app:
+      - Getting Started: getting-started.md
+      - User Interface: ui.md
+      - Scenarios: scenarios.md
+      - Reports & Exports: reports.md
+  - How it works:
+      - Architecture: architecture.md
+      - Database: database.md
+      - Calculation Engine: calculation-engine.md
+      - Analytics & Validation: analytics.md
+      - AI Assistant: ai.md
+  - Reference:
+      - Module Reference: modules.md
+      - Changelog v1 to v2.1: changelog.md
+  - Quality:
+      - Security: security.md
+      - Design Decisions: decisions.md
+      - Limitations & Roadmap: limitations.md
+      - FAQ: faq.md
