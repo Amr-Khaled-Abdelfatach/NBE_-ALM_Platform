@@ -16,7 +16,7 @@ from page_dashboard import page_dashboard
 from page_scenarios import page_scenarios, apply_template
 from page_system import page_system
 
-DOCS_URL = globals().get("DOCS_BASE_URL", "https://amr-khaled-abdelfatach.github.io/NBE_ALM/")
+DOCS_URL = globals().get("DOCS_BASE_URL", "https://amr-khaled-abdelfatach.github.io/NBE_-ALM_Platform/")
 
 
 
