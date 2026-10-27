@@ -201,8 +201,6 @@ def page_dashboard(ctx, history):
 
 
     with tabs[2]:
-        # st.markdown("#### Risk Summary")
-        # show_df(res.risk.drop(columns=["Source"]))
         lad = liquidity_ladder(ctx.cashflows, res.params, res.sim_date, res.horizon, stressed=True)
         if not lad.empty:
             fig_lad = go.Figure()

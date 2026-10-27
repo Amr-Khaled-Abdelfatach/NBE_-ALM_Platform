@@ -41,8 +41,6 @@ _COMPARISON_SPECS = [
     ("POSITION_REPRICING_GAP", "Repricing Gap", "Positions", "EGP"),
     ("LIQUIDITY_NET_CASHFLOW", "Liquidity", "Cash_Flows", "EGP"),
     ("LCR_PROXY", "CF LCR %", "Cash_Flows", "%"),
-    # ("HQLA_TO_DEPOSITS", "HQLA to Deposits %", "Positions", "%"),
-    # ("HQLA_STOCK", "CF HQLA", "Cash_Flows", "EGP"),
     ("PNL_CREDIT_COST", "PnL Credit Cost", "P&L", "EGP"),
     ("PNL_FX_GOLD_REVALUATION", "PnL FX Gold Revaluation", "P&L", "EGP"),
     ("PNL_INVESTMENT_MTM", "PnL Investment MTM", "P&L", "EGP"),

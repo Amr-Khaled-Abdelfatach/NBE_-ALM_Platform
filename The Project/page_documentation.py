@@ -72,7 +72,7 @@ COVERAGE = [
 
 def page_documentation(ctx):
     st.markdown('<div class="section-header">📘 Documentation</div>', unsafe_allow_html=True)
-    st.link_button("🌐 Open Full MkDocs Documentation Website", "https://Amr-Khaled-Abdelfatach.github.io/NBE_-ALM_Platform/", use_container_width=True)
+    st.link_button("🌐 Open Full MkDocs Documentation Website", "https://amr-khaled-abdelfatach.github.io/NBE_-ALM_Platform/", use_container_width=True)
     doc_button("")
     tabs = st.tabs(["Overview", "Drivers", "KPIs & formulas", "Horizon days", "Macro transmission",
                     "Data & assumptions", "Brief coverage"])
