@@ -213,7 +213,7 @@ NBE_PALETTE = [NBE_GREEN, NBE_ORANGE, NBE_DARK_GREEN, "#2E8B57", "#F6A64B", "#73
 # Documentation & External Links
 # ----------------------------------------------------------------------------
 DOCS_ENABLED = True
-DOCS_BASE_URL = "https://amr-khaled-abdelfatach.github.io/NBE_ALM/"
+DOCS_BASE_URL = "https://amr-khaled-abdelfatach.github.io/NBE_-ALM_Platform/"
 
 PAGE_DOCS = {
     "Dashboard": "",
